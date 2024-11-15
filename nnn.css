@@ -1,0 +1,177 @@
+.hero {
+  padding-block: 100px;
+  background-image: linear-gradient(45deg, #2a0134, skyblue);
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-inner {
+  width: 450px;
+}
+
+.hero-title {
+  margin-block: 0 30px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.title-span {
+  color: skyblue;
+}
+
+.hero-desc {
+  margin-block: 0 30px;
+  font-size: 20px;
+  color: #dcdcdc;
+}
+
+.hero-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: skyblue;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  text-decoration-line: none;
+  transition: border 0.2s linear, background-color 0.2s linear;
+}
+
+.hero-link:hover {
+  border: 2px solid skyblue;
+  background-color: transparent;
+}
+
+.hero-pic {
+  border-radius: 30px;
+  transition: transform 0.2s linear;
+}
+
+.hero-pic:hover {
+  transform: scale(1.1);
+}
+
+.family {
+  padding-block: 100px;
+}
+
+.family-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.family-pic {
+  border-radius: 50px;
+  transition: box-shadow 0.2s linear, transform 0.2s linear;
+}
+
+.family-pic:hover {
+  box-shadow: 0 4px 4px 4px #e6e6e6;
+  transform: scale(1.1);
+}
+
+.family-inner {
+  width: 400px;
+}
+
+.family-title {
+  margin-block: 0 30px;
+  font-size: 40px;
+  color: skyblue;
+}
+
+.family-desc {
+  margin-block: 0 40px;
+  font-size: 20px;
+  color: #c3c3c3;
+}
+
+.family-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: skyblue;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+  text-decoration-line: none;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.family-link:hover {
+  color: skyblue;
+  background-color: transparent;
+}
+
+.project {
+  padding-block: 50px;
+}
+
+.project-title {
+  margin-block: 0 50px;
+  font-size: 40px;
+  color: skyblue;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 0 50px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.project-item {
+  padding: 30px;
+  border: 2px solid #dcdcdc;
+  border-radius: 20px;
+  transition: box-shadow 0.2s linear;
+}
+
+.project-item:hover {
+  box-shadow: 0 4px 4px 4px gainsboro;
+}
+
+.project-link {
+  display: block;
+  width: 130px;
+  margin-inline: auto;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: skyblue;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration-line: none;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.project-link:hover {
+  color: skyblue;
+  background-color: white;
+}
+
+.project-link-foot {
+  display: block;
+  width: 498px;
+  margin-inline: auto;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: skyblue;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration-line: none;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.project-link-foot:hover {
+  color: skyblue;
+  background-color: white;
+}
+
