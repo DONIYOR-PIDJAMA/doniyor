@@ -22,12 +22,3 @@
   font-weight: 400;
   line-height: 29.05px;
 }
-
-.about-img-me {
-  border-radius: 30px;
-  transition: transform 0.2s linear;
-}
-
-.about-img-me:hover {
-  transform: scale(1.1);
-}
