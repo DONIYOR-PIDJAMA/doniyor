@@ -71,6 +71,15 @@ li {
 }
 /* header finish */ 
 
+.hero-pic {
+  border-radius: 30px;
+  transition: transform 0.2s linear;
+}
+
+.hero-pic:hover {
+  transform: scale(1.1);
+}
+
 .sky {
   color: skyblue;
 }
